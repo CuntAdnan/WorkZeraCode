@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style_abtus.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Noto+Serif+Display:wght@300&display=swap" rel="stylesheet">
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+          rel="stylesheet"
+        />
+        <script
+          type="module"
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+        <title>Document</title>
+      </head>
+<!-- <body background="abt_us.png" style="backdrop-filter: blur(10px);"> -->
+<body>
+    <header>
+        <div class="navbar">
+          <div class="logo"><a href="#"><img src="https://cleantechservices.org.in/wp-content/uploads/2020/02/visiting-card-1.png" alt=""></a></div>
+          <ul class="links">
+            <li><a href="homepage.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUTUS</a></li>
+            <li><a href="index.html">SERVICES</a></li>
+            <li><a href="products.html">PROGUCTS</a></li>
+            <li><a href="contact.html">CLIENTS</a></li>
+            <li><a href="contactus.html">CONTACTUS</a></li>
+          </ul>
+          <a href="#" class="query">SEND QUERY</a>
+          <div class="toggle_btn"><i class="fa-solid  fa-bars"></i></div>
+        </div>
+  
+  
+        <div class="dropdown_menu ">
+          <li><a href="homepage.html">HOME</a></li>
+          <li><a href="aboutus.html">ABOUTUS</a></li>
+          <li><a href="index.html">SERVICES</a></li>
+          <li><a href="products.html">PROGUCTS</a></li>
+          <li><a href="client.html">CLIENTS</a></li>
+          <li><a href="contactus.html">CONTACTUS</a></li>
+          <li><a href="#" class="query">SEND QUERY</a></li>
+        </div>
+  
+        <script>
+          const toggleBtn = document.querySelector('.toggle_btn')
+          const toggleBtnIcon = document.querySelector('.toggle_btn i')
+          const dropDownMenu = document.querySelector('.dropdown_menu')
+  
+          toggleBtn.onclick = function (){
+            dropDownMenu.classList.toggle('open');
+            const isOpen = dropDownMenu.classList.contains('open')
+  
+  
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid  fa-xmark'
+            : 'fa-solid  fa-bars'
+  
+          };
+        </script>
+  
+      </header>
+    
+    <div class="hero">
+        <img
+          src="abt_us.png"
+          alt="Hero Image"
+        />
+        <div class="hero-text">
+          <h1 style="font-size: 13vw">This Is <br>CleanTech</h1>
+          
+          <!-- <a style="scale: 10vx" href="#" title="call to action button">Explore our Services</a> -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2">
+          <h1>Our Story</h1>
+          <div class="fade_rule"></div>
+          <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap </h4>
+          <br><br><br><br><br><br>
+        </div>
+        <div class="col-md-2">
+          <img src="pg2.jpeg" alt="">
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2">
+          <img src="lettalkfigures.png" alt="">
+        </div>
+        <div class="col-md-2 text">
+          <label for="file">Payroll Outsourcing</label>
+          <progress id="file" value="90" max="100"> 90%</progress>
+<br> <br>
+          <label for="file">Payroll Outsourcing</label>
+          <progress id="file" value="80" max="100"> 80% </progress>
+<br> <br>
+          <label for="file">Mechanized Sweeping</label>
+          <progress id="file" value="70" max="100"> 70% </progress>
+<br> <br>
+          <label for="file">Payroll Outsourcing</label>
+          <progress id="file" value="85" max="100"> 85% </progress>
+<br> <br>
+          <label for="file">Payroll Outsourcing</label>
+          <progress id="file" value="95" max="100"> 95% </progress>
+<br> <br>
+          <label for="file">Payroll Outsourcing</label>
+          <progress id="file" value="90" max="100"> 90% </progress>
+
+         <br><br><br>
+         <p id="anti">Ours is an Agency, which is been registered with Assistant Labour Commissioner, Department of Goods
+     and Service Tax and Employees Provident Fund Organization to fulfil all the requiredGovernment
+     Statutory liabilities with Employees State Insurance Corporation also , so that we can provide our staff a
+     safe and long terms social security.
+     </p>
+        </div>
+        <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+      </div>
+     
+
+
+      <div class="row">
+        <div class="col-md-2">
+          <h2 style="font-size:60px">Who are 'WE'?</h2>
+          <div class="fade_rule"></div>
+          <p style="font-size:20px">We hereby feel obliged to introduce ourselves as an
+      Agency providing Facility Management Services being
+      managed by management students carrying out the
+      job to a list of esteemed and reputed clientele base in
+      Chhattisgarh , Madhya Pradesh , Orissa and
+      Maharashtra region .</p>
+      <p style="font-size:20px">The promoter of the Agency been Mrs. V Juvekar has
+      been into the field of housekeeping for the last 17
+      years, having executed job of State Secretariat and
+      state legislative assembly in banner name of AV
+      Services with other organization of repute, mainly in
+      association with State Bank of India ( Main Branch
+      Raipur ) whose Housekeeping services were taken
+      care off from 1998 till today and from 01 branch it has
+      travelled to 305 branches today . This long period of
+      association signifies clientele importance and
+      dedication towards work and commitment as well as
+      signifies integral part of Business Module .</p>
+      <p style="font-size:20px">In year 2006 a new Agency was been floated in
+      banner name of Cleantech Services and Workforce.
+      Presently the Agency Geographical Presence in India
+      is as accordingly and henceforth creating job
+      opportunities for remote areas and manpower base </p>
+          <br><br><br><br><br><br>
+        </div>
+        <div class="col-md-2">
+          <img src="Whoweare.png" alt="">
+        </div>
+        <br><br><br><br><br><br>
+      </div>
+
+
+<div class="row container">
+  <p class="heading">Let's talk about Quality!</p>
+
+  <a href="#"><button type="button" class="button">HERE YOU GO!</button></a>
+  <div class="images">
+
+      <img src="iso_logo.jpg" alt="..." height="150px" width="" />
+      <p><b>ISO 9001:2015</b><br>
+          QUALITY MANAGEMENT SYSTEM CERTIFICATIONS</p>
+
+
+      <img src="ENISO.png" alt="..." height="150px" width="" />
+      <p><b>ENISO 14001:2015</b><br>
+          ENVIRONMENT MANAGEMENT SYSTEMS</p>
+
+
+      <img src="iso_45001.webp" alt="..." height="150px" width="" />
+      <p><b>ENISO 14001:2015</b><br>
+          ENVIRONMENT MANAGEMENT SYSTEMS</p>
+
+  </div>
+  <br><br><br><br><br><br>
+</div>
+    
+  </div>
+</div>
+<br> <br> <br>
+<div class="footer">
+  <p class="footer-text">@2020 Cleantech Services & Workforce All rights reserved. Design By - Renown Infotech</p>
+</div>
+</html>
+
+
+</body>
+</html>

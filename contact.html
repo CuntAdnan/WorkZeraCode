@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clients</title>
+    <link rel="stylesheet" href="contactStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Nvigation Bars
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-secondary py-md-1">
+
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+
+                        </div>
+                        <div class="col">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 lh-lg">
+                                <li class="nav-item ">
+                                    <a class="nav-link active me-4 fs-2 " aria-current="page"
+                                        href="#"><span>Home</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active me-4 fs-2 " href="#"><span>About Us</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active me-4 fs-2" href="#"><span>Services</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active me-4 fs-2" href="#"><span>Products</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active me-5 fs-2" href="#"><span>Clients</span></a>
+                                </li>
+                                <button type="button" class="btn btn-success ms-5 fs-3 ">Send Query</button>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </nav> -->
+
+    <header>
+        <div class="navbar">
+          <div class="logo"><a href="#"><img src="https://cleantechservices.org.in/wp-content/uploads/2020/02/visiting-card-1.png" alt=""></a></div>
+          <ul class="links">
+            <li><a href="homepage.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUTUS</a></li>
+            <li><a href="index.html">SERVICES</a></li>
+            <li><a href="products.html">PROGUCTS</a></li>
+            <li><a href="contact.html">CLIENTS</a></li>
+            <li><a href="contactus.html">CONTACTUS</a></li>
+          </ul>
+          <a href="#" class="query">SEND QUERY</a>
+          <div class="toggle_btn"><i class="fa-solid  fa-bars"></i></div>
+        </div>
+  
+  
+        <div class="dropdown_menu">
+          <li><a href="homepage.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUTUS</a></li>
+            <li><a href="index.html">SERVICES</a></li>
+            <li><a href="products.html">PROGUCTS</a></li>
+            <li><a href="contact.html">CLIENTS</a></li>
+            <li><a href="contactus.html">CONTACTUS</a></li>
+          <li><a href="#" class="query">SEND QUERY</a></li>
+        </div>
+  
+        <!-- <main>
+          <section id = 'hero'>
+            <h1> WELCOME</h1>
+            <P>We provide specialized cleaning services to the corporate and
+              residential sectors in a reliable, consistent and regular manner.</P>
+          </section>
+        </main> -->
+  
+        <!-- <div class="dropdown_menu ">
+          <li><a href="home">HOME</a></li>
+            <li><a href="home">ABOUTUS</a></li>
+            <li><a href="home">SERVICES</a></li>
+            <li><a href="home">PROGUCTS</a></li>
+            <li><a href="home">CLIENTS</a></li>
+            <li><a href="home">CONTACTUS</a></li>
+        </div> -->
+  
+        <script>
+          const toggleBtn = document.querySelector('.toggle_btn')
+          const toggleBtnIcon = document.querySelector('.toggle_btn i')
+          const dropDownMenu = document.querySelector('.dropdown_menu')
+  
+          toggleBtn.onclick = function (){
+            dropDownMenu.classList.toggle('open');
+            const isOpen = dropDownMenu.classList.contains('open')
+  
+  
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid  fa-xmark'
+            : 'fa-solid  fa-bars'
+  
+          };
+        </script>
+  
+      </header>
+
+    <img src="./images_contact/client.png" class="clientImage">
+
+    <div class="container">
+
+        <h3 class="title"> Our Clients </h3>
+
+        <div class="products-container">
+
+            <div class="product" data-name="p-1">
+                <img src="images_contact/1.png" alt="">
+                <h3>Banking Sector</h3>
+
+            </div>
+
+            <div class="product" data-name="p-2">
+                <img src="images_contact/2.png" alt="">
+                <h3>Telecommunication Sector</h3>
+
+            </div>
+
+            <div class="product" data-name="p-3">
+                <img src="images_contact/3.png" alt="">
+                <h3>Educational Institutions</h3>
+
+            </div>
+
+            <div class="product" data-name="p-4">
+                <img src="images_contact/4.png" alt="">
+                <h3>Shopping Malls</h3>
+
+            </div>
+
+            <div class="product" data-name="p-5">
+                <img src="images_contact/5.png" alt="">
+                <h3>Hospitality Sector</h3>
+
+            </div>
+
+            <div class="product" data-name="p-6">
+                <img src="images_contact/6.png" alt="">
+                <h3>Entertainment Industry</h3>
+
+            </div>
+
+            <div class="product" data-name="p-7">
+                <img src="images_contact/7.png" alt="">
+                <h3>Retail Outlets</h3>
+
+            </div>
+
+            <div class="product" data-name="p-8">
+                <img src="images_contact/8.png" alt="">
+                <h3>Industrail Corporations</h3>
+
+            </div>
+
+            <div class="product" data-name="p-9">
+                <img src="images_contact/9.png" alt="">
+                <h3>Police Department and Investigation Agency</h3>
+            </div>
+
+            <div class="product" data-name="p-10">
+                <img src="images_contact/10.png" alt="">
+                <h3>Health Care Sector</h3>
+            </div>
+
+            <div class="product" data-name="p-11">
+                <img src="images_contact/11.png" alt="">
+                <h3>State Government Institutions</h3>
+
+            </div>
+
+
+            <div class="product" data-name="p-12">
+                <img src="images_contact/12.png" alt="">
+                <h3>Central Government Institutions</h3>
+
+            </div>
+
+            <div class="product" data-name="p-13">
+                <img src="images_contact/13.png" alt="">
+                <h3>Industrial Corporations</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="products-preview">
+
+        <div class="preview" data-target="p-1">
+            <i class="fas fa-times"></i>
+
+            <h3>Banking Sector</h3>
+            <div class="stars">
+                <ul>
+                    <li>State Bank of India</li>
+                    <ul>
+                        <li>Zonal Office</li>
+                        <li>Raipur Region Branches</li>
+                        <li>RBO -||(40 NUS)</li>
+                        <li>Jagdalpur Region Branches(42 NUS)</li>
+                        <li>Durg Region Branches(34 NUS)</li>
+                        <li>Ambikapur Region Branches(34 NUS)</li>
+                        <li>Bilaspur Region Branches(34 NUS)</li>
+                        <li>Kanker Region Branches(34 NUS)</li>
+                    </ul>
+                    <br>
+                    <li>Punjab National Bank</li>
+                    <ul>
+                        <li>Zonal Office</li>
+                        <li>Main Office</li>
+                        <li>Katora Talab Branch </li>
+                        <li>Station Road Office</li>
+
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-2">
+
+
+            <h3>TeleCommunication Sector</h3>
+            <div class="stars">
+                <ul>
+                    <li>Bharti Airtel</li>
+                    <li>Bharti Airtel.Ltd</li>
+                    <li>Reliance Infocomm limited</li>
+                    <li>TATA teleservices limited</li>
+                    <li>Relaince Jio Compass Group</li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <div class="preview" data-target="p-3">
+
+
+            <h3>Educational Institutions</h3>
+            <div class="stars">
+                <ul>
+                    <li>DAV Mukhyamatri Public School</li>
+                    <li>Chhattisgarh Swami VivekaNand Tech University</li>
+                    <li>OP Jindal Institute of Technology and skills</li>
+                    <li>HNLU</li>
+                    <li>MATS University</li>
+                    <li>Monnett DAV School </li>
+                    <li>ITM University</li>
+                    <li>Aziz Premji Educational Trust</li>
+                    <li>National Institute of Banking and Finance</li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <div class="preview" data-target="p-4">
+            <h3>Shopping Malls</h3>
+            <div class="stars">
+                <ul>
+                    <li>City Mall 36</li>
+                    <li>RK Mall</li>
+                    <li>Magneto the Mall</li>
+                    <li>City Centre</li>
+                    <li>Treasure Island</li>
+                    <li>Colors Mall</li>
+                    <li>Rama Port</li>
+                    <li>Surya Treasure Island</li>
+                    <li>Rama Magneto</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="preview" data-target="p-5">
+
+
+            <h3>Hospitality Sector</h3>
+            <div class="stars">
+                <ul>
+                    <li>Hyatt Hotels</li>
+                    <li>Gateway Hotels(TAJ Group)</li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="preview" data-target="p-6">
+            <h3>Multiplex/Entertainment Sector</h3>
+            <div class="stars">
+                <ul>
+                    <li>Jindal Steel and Power Limited</li>
+                    <li>INOX Leiure.Ltd</li>
+                    <li>INOX Leiure.Ltd Ambuja Mall</li>
+                    <li>Cinemaxx.Ltd</li>
+                    <li>Glitz Cinemas</li>
+                    <li>PVR Cinemas</li>
+                    <li>Reliance MediaWork Limited</li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <div class="preview" data-target="p-7">
+            <h3>Retail Outlets</h3>
+            <div class="stars">
+                <ul>
+                    <li>Globus Retail Outlet</li>
+                    <li>Big Bazaar(Future & Pantaloon Grp.)</li>
+                    <li>Coupon(Prateek Lifestyle Group)</li>
+                    <li>WestSide (A TATA group) </li>
+                    <li>Bharti Retail Limited -Easy Day</li>
+                    <li>Central( A LifeStyle Outlet)</li>
+                    <li>Pantaloon Retail</li>
+                    <li>Sumeet Group</li>
+                    <li>Spencer Limited</li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="preview" data-target="p-8">
+            <h3>Industrial Corporations</h3>
+            <div class="stars">
+                <ul>
+                    <li>Jindal Steel and Power Limited</li>
+                    <li>INOX Leiure.Ltd</li>
+                    <li>INOX Leiure.Ltd Ambuja Mall</li>
+                    <li>Cinemaxx.Ltd</li>
+                    <li>Glitz Cinemas</li>
+                    <li>PVR Cinemas</li>
+                    <li>Reliance MediaWork Limited</li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <div class="preview" data-target="p-9">
+            <h3>Police Department and Investigation Agency</h3>
+            <div class="stars">
+                <ul>
+                    <li>Central Bureau of Investigation</li>
+                    <li>National Investigation Agency</li>
+                    <li>Police Head Quarters</li>
+                    <li>National Technical Reearch Organization</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-10">
+            <h3>Health Care Sector</h3>
+            <div class="stars">
+                <ul>
+                    <li>Ramkrishna CARE( Unit I & II )</li>
+                    <li>Mishra Superspeciality Hospital</li>
+                    <li>Sri Balaji Super Speciality Hospitals</li>
+                    <li>DKS Superspeciality Hospital</li>
+                    <li>Sanjeevani CBCC Cancer Hospital
+                        Dr.M.R.Bhagwat Memorial Hospital</li>
+                    <li>Narayana Hrudalaya MMI</li>
+                    <li>FORTIS ESCORTS HOSPITAL</li>
+                    <li>APOLLO SUGAR</li>
+                    <li>KIMS Hospitals</li>
+                    <li>ASG Eye Care</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-10">
+            <h3>Health Care Sector</h3>
+            <div class="stars">
+                <ul>
+                    <li>Vasan Eye Care</li>
+                    <li>Devi Laxmi Hospital</li>
+                    <li>Shri Satya Sai Hospital</li>
+                    <li>Lifeworth Super Specialty Hospital</li>
+                    <li>Apollo BSR Hospital Limited</li>
+                    <li>FortisOP Jindal Hospital</li>
+                    <li>Krishna Hospitals Limited</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-11">
+            <h3>State Government Institutions</h3>
+            <div class="stars">
+                <ul>
+                    <li>Naya Raipur Development Authourity</li>
+                    <li>DKS Superspeciality Hospital</li>
+                    <li>CG Infrastructure Development Corp</li>
+                    <li>State Investment Promotion Board</li>
+                    <li>Directorate - Institutional Finance</li>
+                    <li>CG Infotech & Biotech Promotion
+                        Society</li>
+                    <li>CG Water Works Department</li>
+                    <li>Raipur Municipal Corporation</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-12">
+            <h3>Central Government Institutions</h3>
+            <div class="stars">
+                <ul>
+                    <li>Short Service Commission</li>
+                    <li>National Technical Research
+                        Organisation</li>
+                    <li>Indian Oil Corporation Limited</li>
+                    <li>Income Tax Department</li>
+                    <li>National Thermal & Power Corporation</li>
+                    <li>Employees State Insurance Corporation</li>
+                    <li>Power Grid Corporation of India Ltd</li>
+                    <li>Kendriya Vidyalaya</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="preview" data-target="p-13">
+            <h3>CORPORATE INSTITUTIONS</h3>
+            <div class="stars">
+                <ul>
+                    <li>Jindal Steel and Power Limited</li>
+                    <li>Jindal Power Limited</li>
+                    <li>TATA Sky Limited</li>
+                    <li>Monnet Ispat and Energy
+                        Limited</li>
+                    <li>VNR Seeds Pvt.Ltd</li>
+                    <li>Munich Motors ( BMW Outlet )</li>
+                    <li>Auto Hangar ( Mercedes Outlet )</li>
+                    <li>Geetanjali Jewellers Pvt Ltd</li>
+                    <li>Yum Food Product (KFC Outlet )</li>
+                    <li>Cipla Limited</li>
+                    <li>Gati logistics Limited</li>
+                    <li>Emitici Engineering Ltd</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-13">
+            <h3>CORPORATE INSTITUTIONS</h3>
+            <div class="stars">
+                <ul>
+                    <li>Lafarge Aggregates & Concrete</li>
+                    <li>Doosan Projects India Pvt. Ltd.</li>
+                    <li>Vedanta Aluminium Company Ltd</li>
+                    <li>Godavari Power & Ispat Ltd</li>
+                    <li>HCL Infoservices Ltd</li>
+                    <li>Dainik Bhaskar</li>
+                    <li>NFT - Gondia</li>
+                    <li>Tanishq Show Room</li>
+                    <li>Wallfort Properties</li>
+                    <li>Swarnbhoomi Projects </li>
+                    <li>Gold Bricks Infratec Ltd</li>
+                    <li>Otto Bock Health Care</li>
+                    <li>Ultratech Cement Limited</li>
+                    <li>Shree Cements Limited</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p class="footer-text">@2020 Cleantech Services & Workforce All rights reserved. Design By - Renown Infotech</p>
+    </div>
+
+    <script src="./contactjs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
