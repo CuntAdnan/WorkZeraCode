@@ -6,13 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Clients</title>
     <link rel="stylesheet" href="contactStyle.css">
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Noto+Serif+Display:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/325854e1b0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <!-- Nvigation Bars
+    <!-- Navigation Bars
     <nav class="navbar navbar-expand-lg fixed-top bg-body-secondary py-md-1">
 
         <div class="container-fluid">
@@ -66,31 +84,37 @@
     </nav> -->
 
     <header>
+        
+
+        <!-- Main Navigation Part 1 -->
         <div class="navbar">
-          <div class="logo"><a href="#"><img src="https://cleantechservices.org.in/wp-content/uploads/2020/02/visiting-card-1.png" alt=""></a></div>
-          <ul class="links">
+            <div class="logo"><a href="#"><img
+                        src="https://cleantechservices.org.in/wp-content/uploads/2020/02/visiting-card-1.png"
+                        alt=""></a></div>
+            <ul class="links">
+                <li><a href="homepage.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUTUS</a></li>
+                <li><a href="index.html">SERVICES</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="contact.html">CLIENTS</a></li>
+                <li><a href="contactus.html">CONTACTUS</a></li>
+            </ul>
+            <a href="#" class="query">SEND QUERY</a>
+            <div class="toggle_btn"><i class="fa-solid  fa-bars"></i></div>
+        </div>
+
+        <!-- Main Navigation part 2 -->
+
+        <div class="dropdown_menu">
             <li><a href="homepage.html">HOME</a></li>
             <li><a href="aboutus.html">ABOUTUS</a></li>
             <li><a href="index.html">SERVICES</a></li>
             <li><a href="products.html">PROGUCTS</a></li>
             <li><a href="contact.html">CLIENTS</a></li>
             <li><a href="contactus.html">CONTACTUS</a></li>
-          </ul>
-          <a href="#" class="query">SEND QUERY</a>
-          <div class="toggle_btn"><i class="fa-solid  fa-bars"></i></div>
+            <li><a href="#" class="query">SEND QUERY</a></li>
         </div>
-  
-  
-        <div class="dropdown_menu">
-          <li><a href="homepage.html">HOME</a></li>
-            <li><a href="aboutus.html">ABOUTUS</a></li>
-            <li><a href="index.html">SERVICES</a></li>
-            <li><a href="products.html">PROGUCTS</a></li>
-            <li><a href="contact.html">CLIENTS</a></li>
-            <li><a href="contactus.html">CONTACTUS</a></li>
-          <li><a href="#" class="query">SEND QUERY</a></li>
-        </div>
-  
+
         <!-- <main>
           <section id = 'hero'>
             <h1> WELCOME</h1>
@@ -98,7 +122,7 @@
               residential sectors in a reliable, consistent and regular manner.</P>
           </section>
         </main> -->
-  
+
         <!-- <div class="dropdown_menu ">
           <li><a href="home">HOME</a></li>
             <li><a href="home">ABOUTUS</a></li>
@@ -107,25 +131,25 @@
             <li><a href="home">CLIENTS</a></li>
             <li><a href="home">CONTACTUS</a></li>
         </div> -->
-  
+
         <script>
-          const toggleBtn = document.querySelector('.toggle_btn')
-          const toggleBtnIcon = document.querySelector('.toggle_btn i')
-          const dropDownMenu = document.querySelector('.dropdown_menu')
-  
-          toggleBtn.onclick = function (){
-            dropDownMenu.classList.toggle('open');
-            const isOpen = dropDownMenu.classList.contains('open')
-  
-  
-            toggleBtnIcon.classList = isOpen
-            ? 'fa-solid  fa-xmark'
-            : 'fa-solid  fa-bars'
-  
-          };
+            const toggleBtn = document.querySelector('.toggle_btn')
+            const toggleBtnIcon = document.querySelector('.toggle_btn i')
+            const dropDownMenu = document.querySelector('.dropdown_menu')
+
+            toggleBtn.onclick = function () {
+                dropDownMenu.classList.toggle('open');
+                const isOpen = dropDownMenu.classList.contains('open')
+
+
+                toggleBtnIcon.classList = isOpen
+                    ? 'fa-solid  fa-xmark'
+                    : 'fa-solid  fa-bars'
+
+            };
         </script>
-  
-      </header>
+
+    </header>
 
     <img src="./images_contact/client.png" class="clientImage">
 
@@ -214,9 +238,13 @@
 
     </div>
 
+
+    <br>
+
     <div class="products-preview">
 
         <div class="preview" data-target="p-1">
+
             <i class="fas fa-times"></i>
 
             <h3>Banking Sector</h3>
@@ -248,7 +276,7 @@
 
         <div class="preview" data-target="p-2">
 
-
+            <i class="fas fa-times"></i>
             <h3>TeleCommunication Sector</h3>
             <div class="stars">
                 <ul>
@@ -266,7 +294,7 @@
 
         <div class="preview" data-target="p-3">
 
-
+            <i class="fas fa-times"></i>
             <h3>Educational Institutions</h3>
             <div class="stars">
                 <ul>
@@ -287,6 +315,7 @@
         </div>
 
         <div class="preview" data-target="p-4">
+            <i class="fas fa-times"></i>
             <h3>Shopping Malls</h3>
             <div class="stars">
                 <ul>
@@ -306,7 +335,7 @@
 
         <div class="preview" data-target="p-5">
 
-
+            <i class="fas fa-times"></i>
             <h3>Hospitality Sector</h3>
             <div class="stars">
                 <ul>
@@ -319,6 +348,7 @@
         </div>
 
         <div class="preview" data-target="p-6">
+            <i class="fas fa-times"></i>
             <h3>Multiplex/Entertainment Sector</h3>
             <div class="stars">
                 <ul>
@@ -337,6 +367,7 @@
         </div>
 
         <div class="preview" data-target="p-7">
+            <i class="fas fa-times"></i>
             <h3>Retail Outlets</h3>
             <div class="stars">
                 <ul>
@@ -358,6 +389,7 @@
 
 
         <div class="preview" data-target="p-8">
+            <i class="fas fa-times"></i>
             <h3>Industrial Corporations</h3>
             <div class="stars">
                 <ul>
@@ -376,6 +408,7 @@
         </div>
 
         <div class="preview" data-target="p-9">
+            <i class="fas fa-times"></i>
             <h3>Police Department and Investigation Agency</h3>
             <div class="stars">
                 <ul>
@@ -388,6 +421,7 @@
         </div>
 
         <div class="preview" data-target="p-10">
+            <i class="fas fa-times"></i>
             <h3>Health Care Sector</h3>
             <div class="stars">
                 <ul>
@@ -407,6 +441,7 @@
         </div>
 
         <div class="preview" data-target="p-10">
+            <i class="fas fa-times"></i>
             <h3>Health Care Sector</h3>
             <div class="stars">
                 <ul>
@@ -422,6 +457,7 @@
         </div>
 
         <div class="preview" data-target="p-11">
+            <i class="fas fa-times"></i>
             <h3>State Government Institutions</h3>
             <div class="stars">
                 <ul>
@@ -439,6 +475,7 @@
         </div>
 
         <div class="preview" data-target="p-12">
+            <i class="fas fa-times"></i>
             <h3>Central Government Institutions</h3>
             <div class="stars">
                 <ul>
@@ -458,6 +495,8 @@
 
 
         <div class="preview" data-target="p-13">
+            <i class="fas fa-times"></i>
+            <br>
             <h3>CORPORATE INSTITUTIONS</h3>
             <div class="stars">
                 <ul>
@@ -480,6 +519,7 @@
 
 
         <div class="preview" data-target="p-13">
+            <i class="fas fa-times"></i>
             <h3>CORPORATE INSTITUTIONS</h3>
             <div class="stars">
                 <ul>
@@ -503,14 +543,94 @@
 
     </div>
 
-    <div class="footer">
-        <p class="footer-text">@2020 Cleantech Services & Workforce All rights reserved. Design By - Renown Infotech</p>
-    </div>
+
 
     <script src="./contactjs.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
+    <div class="rowx" id="pqr">
+        <hr>
+
+        <div class="column">
+
+            <h2> <br><br><br> ONE WAY OF SELF CARE....<br>GIVE CLEAN A CHANCE</h2>
+            <br> <br>
+            <br><br><br><br>
+            <h3>REACH US AT:</h3>
+            <br><br><br><br>
+
+            <div class="row2">
+
+                <!-- Contact No -->
+                <div class="col2" style="width: 25%">
+                    <div class="card" style="width: 100%">
+                        <!-- <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width: 100%" /> -->
+                        <div class="container">
+                            <h5><ion-icon name="call"></ion-icon></h5>
+                            <h5>Phone <br>
+                                +91 94252-04556 <br>
+                                +91 93292-06359 <br>
+                                +91771 4073296 <br></h5>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col2" style="width: 25%">
+                    <div class="card" style="width: 125%">
+                        <!-- <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width: 100%" /> -->
+                        <div class="container">
+
+
+                            <h5><ion-icon name="mail-open"></ion-icon> <br> Email <br>
+                                info@cleantechservices.org.in <br>
+                                anirudh_juvekar@yahoo.com <br></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column" id="bottm"><br><br><br>
+            <br><br>
+            <h4 style="margin-left: 115px"><br><br><br><br><br><br></h4>
+
+            <h4 class="footer-link" style="margin-left: 115px">
+                <br /><br />
+                <a href="homepage.html" style="color: white;text-decoration: none;">HOME </a><br><br />
+            </h4>
+            <h4 class="footer-link" style="margin-left: 115px">
+                <a href="aboutus.html" style="color: white;text-decoration: none;">ABOUT US</a><br><br />
+            </h4>
+            <h4 class="footer-link" style="margin-left: 115px">
+                <a style="color: white;text-decoration: none;">SERVICES</a><br><br />
+            </h4>
+            <h4 class="footer-link" style="margin-left: 115px"><a href="products.html"
+                    style="color: white;text-decoration: none;">PRODUCTS</a><br><br />
+            </h4>
+            <h4 class="footer-link" style="margin-left: 115px"><a href="contact.html"
+                    style="color: white;text-decoration: none;">CLIENTS</a><br><br />
+
+                <h4>_____________________________</h4><br>
+
+                <ul id="bottm_icons">
+                    <br>
+                    <li><ion-icon name="logo-facebook"></ion-icon></li>
+                    <li><ion-icon name="logo-linkedin"></ion-icon></li>
+                    <li><ion-icon name="logo-instagram"></ion-icon></li>
+
+                </ul>
+
+
+
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

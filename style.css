@@ -588,7 +588,6 @@ font-family: 'Noto Serif Display', serif;
 
 #bottm .ion-icon{
     color: #ffffff;
-
 }
 
 .rowx ul{
@@ -738,7 +737,7 @@ font-family: 'Noto Serif Display', serif;
     margin-left: 90px;
     margin-right: 100px;
     font-family: 'Goudy Bookletter 1911', serif;
-font-family: 'Noto Serif Display', serif;
+    font-family: 'Noto Serif Display', serif;
 
     -webkit-transition: 0.75s;
     -moz-transition: 0.75s;
@@ -757,8 +756,7 @@ font-family: 'Noto Serif Display', serif;
     margin-left: 90px;
     margin-right: 100px;
     font-family: 'Goudy Bookletter 1911', serif;
-font-family: 'Noto Serif Display', serif;
-
+    font-family: 'Noto Serif Display', serif;
     -webkit-transition: 0.75s;
     -moz-transition: 0.75s;
     -ms-transition: 0.75s;
@@ -853,7 +851,6 @@ header{
   height: 10px;
   max-width: 1200px;
   margin: 3rem 2rem;
-  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -878,6 +875,7 @@ header{
   cursor: pointer;
   display: none;
 }
+
 .query{
   background-color: #000000;
   color: #fff;
@@ -1010,4 +1008,8 @@ hr {
   color: white;
   text-align: center;
   padding-top: 40px;
+}
+
+.footer-link a {
+  text-decoration: none;
 }
